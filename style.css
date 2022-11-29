@@ -1,0 +1,171 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 60px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    height: 100px;
+    background-color: plum;
+}
+
+.heading a {
+    text-decoration-line: inherit;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+
+}
+
+.heading .heading-items {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#header{
+    height: 46px;
+    background-color: plum;
+
+}
+
+#nav{
+    display: inline-block;
+
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a{
+    color: whitesmoke; 
+    text-transform:uppercase; 
+
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block
+}
+
+#nav li:hover .subnav{
+    display:block
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+    color: black;
+    background-color: lightgray;
+}
+#nav .subnav{
+    display: none;
+    position:absolute;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+}
+
+#nav .subnav a {
+    color: black;
+}
+
+#header .search-btn{
+    float: right;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+#header .search-btn:hover{
+    background-color: purple;
+}
+
+#header .search-icon{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#header .heart-btn{
+    float: right;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+#header .heart-btn:hover{
+    background-color: purple;
+}
+
+#header .heart-icon{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#header .shopping-btn{
+    float: right;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+#header .shopping-btn:hover{
+    background-color: purple;
+}
+
+#header .shopping-icon{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+}
+.body-container {
+    margin: 0 50px;
+}
+
+.body-container .content {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.body-container .member {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.body-container .member .member-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.member-list .member-item {
+  
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.member-item > p {
+    margin-bottom: 6px;
+}
+
+.member-item img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    Border-radius: 50%
+}
